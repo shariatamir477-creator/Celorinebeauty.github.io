@@ -1,71 +1,175 @@
 <!doctype html>
 <html lang="fa" dir="rtl">
 <head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>فروشگاه آرایشی | پرداخت امن و ارسال سریع</title>
-<meta name="description" content="خرید آنلاین لوازم آرایشی اورجینال. ارسال سریع و پشتیبانی واتساپ."/>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>فروشگاه شما | الهام از یاسمین‌شاپ</title>
+<meta name="description" content="خرید آنلاین لوازم آرایشی با ارسال سریع و ضمانت اصالت.">
 <style>
-:root{--max:1100px;--pad:16px;--radius:14px}
-*{box-sizing:border-box}html,body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto;line-height:1.6;color:#111}
-a{color:inherit;text-decoration:none}
-img{max-width:100%;height:auto;border-radius:12px}
+:root{--brand:#b3003c;--gold:#c9a227;--max:1100px;--pad:16px;--r:14px}
+*{box-sizing:border-box}html,body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto;line-height:1.7;color:#111;background:#fff}
+a{text-decoration:none;color:inherit}img{max-width:100%;height:auto;border-radius:12px}
 .wrap{max-width:var(--max);margin:auto;padding:0 var(--pad)}
-header{position:sticky;top:0;background:#fff;border-bottom:1px solid #eee;z-index:20}
-nav{display:flex;align-items:center;justify-content:space-between;height:64px}
-nav ul{display:flex;gap:16px;list-style:none;margin:0;padding:0}
-.logo{font-weight:700}
-.btn{display:inline-block;padding:10px 16px;border:1px solid #111;border-radius:999px}
-.btn.primary{background:#111;color:#fff;border-color:#111}
-.badges{display:flex;gap:8px;flex-wrap:wrap}
-.badges span{border:1px solid #e6e6e6;padding:6px 10px;border-radius:999px;font-size:13px}
-.hero{padding:40px 0;display:grid;grid-template-columns:1.1fr 0.9fr;gap:24px;align-items:center}
-.hero h1{margin:0 0 8px;font-size:clamp(22px,4vw,42px);line-height:1.2}
-.section{padding:30px 0}
-.controls{display:flex;gap:10px;flex-wrap:wrap;margin:12px 0}
-input,select{padding:10px;border:1px solid #ddd;border-radius:10px}
-.grid{display:grid;gap:16px;grid-template-columns:repeat(4,minmax(0,1fr))}
-.card{border:1px solid #eee;border-radius:var(--radius);padding:12px;background:#fff;display:flex;flex-direction:column}
-.card h3{margin:8px 0 4px;font-size:16px}
-.price{font-weight:700;margin-top:6px}
-.qty{width:64px;text-align:center}
-.cart{position:fixed;inset-block-start:72px;inset-inline-end:12px;width:340px;max-width:95vw;background:#fff;border:1px solid #eee;border-radius:16px;padding:14px;box-shadow:0 6px 24px rgba(0,0,0,.08)}
-.cart h3{margin:0 0 10px}
-.cart ul{list-style:none;margin:0;padding:0;max-height:40vh;overflow:auto}
-.cart li{display:flex;justify-content:space-between;gap:8px;border-bottom:1px dashed #eee;padding:6px 0}
-.cart .total{display:flex;justify-content:space-between;font-weight:700;margin-top:10px}
-footer{padding:36px 0;border-top:1px solid #eee;color:#555;margin-top:40px}
-.tag{font-size:12px;color:#666}
-@media (max-width:1000px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.hero{grid-template-columns:1fr}}
-@media (max-width:600px){.grid{grid-template-columns:1fr}}
+header{position:sticky;top:0;background:#fff;border-bottom:1px solid #eee;z-index:30}
+nav{display:flex;align-items:center;justify-content:space-between;height:64px;gap:12px}
+.brand{display:flex;align-items:center;gap:10px}
+.brand img{width:36px;height:36px;border-radius:50%;border:2px solid var(--gold)}
+.brand strong{color:var(--brand)}
+.top{display:flex;gap:10px;align-items:center}
+.top .chip{border:1px solid #eee;padding:6px 10px;border-radius:999px;font-size:13px}
+.btn{display:inline-block;padding:10px 14px;border:1px solid #111;border-radius:999px}
+.btn.primary{background:#111;color:#fff}
+.hero{padding:28px 0;background:linear-gradient(90deg,#fff5f7,#fff);border-bottom:1px solid #f5e3e7}
+.hero .grid{display:grid;grid-template-columns:1.1fr .9fr;gap:20px;align-items:center}
+.hero h1{margin:0 0 8px;font-size:clamp(24px,4.5vw,40px)}
+.badges{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}
+.badges span{border:1px solid #e8e8e8;padding:6px 10px;border-radius:999px;background:#fff;font-size:13px}
+.section{padding:38px 0}
+.catgrid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(210px,1fr))}
+.card{border:1px solid #eee;border-radius:var(--r);padding:14px;background:#fff}
+.card h3{margin:10px 0 6px;font-size:16px}
+.ribbon{display:inline-block;background:var(--brand);color:#fff;padding:4px 10px;border-radius:999px;font-size:12px}
+.products{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.price{color:var(--brand);font-weight:700}
+button{width:100%;padding:10px;background:#111;color:#fff;border:0;border-radius:10px;margin-top:8px}
+.banner{border:1px solid #eee;border-radius:16px;overflow:hidden;display:grid;grid-template-columns:1fr 1fr}
+.banner div{padding:20px}.banner h3{margin:0 0 8px}
+footer{padding:28px 0;border-top:1px solid #eee;color:#666;text-align:center;margin-top:28px}
+.cartbtn{position:fixed;left:16px;bottom:16px;background:var(--brand);color:#fff;border-radius:999px;padding:12px 14px;box-shadow:0 8px 24px rgba(179,0,60,.25);z-index:40}
+.search{display:flex;gap:8px;margin-top:10px}
+.search input{flex:1;padding:10px;border:1px solid #ddd;border-radius:10px}
+@media (max-width:900px){.hero .grid,.banner{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
 <header>
   <div class="wrap">
     <nav>
-      <a class="logo" href="#">Beauty Shop</a>
-      <ul>
-        <li><a href="#shop">محصولات</a></li>
-        <li><a class="btn" href="#contact">تماس</a></li>
-      </ul>
+      <a class="brand" href="#"><img src="logo.png" onerror="this.src='https://placehold.co/72x72?text=LOGO'"><strong id="brand">Your Shop</strong></a>
+      <div class="top">
+        <span class="chip">اصالت کالا</span><span class="chip">ارسال سریع</span><span class="chip">پرداخت امن</span>
+        <a class="btn primary" href="#products">محصولات</a>
+      </div>
     </nav>
   </div>
 </header>
 
 <main class="wrap">
+  <!-- هرو -->
   <section class="hero">
-    <div>
-      <div class="badges">
-        <span>اصالت کالا</span><span>ارسال سریع</span><span>پشتیبانی واتساپ</span>
+    <div class="grid">
+      <div>
+        <h1 id="headline">زیبایی اصیل با تحویل سریع</h1>
+        <p id="sub">منتخب محصولات آرایشی و مراقبت پوست با ضمانت اصالت و پشتیبانی واتساپ.</p>
+        <div class="badges"><span>پرفروش‌های هفته</span><span>تخفیف‌های طلایی</span></div>
+        <div class="search">
+          <input id="q" placeholder="جستجوی محصول (مثلاً رژ، SPF، سرم)">
+          <a class="btn" href="#products" onclick="doSearch()">جستجو</a>
+        </div>
       </div>
-      <h1>فروشگاه لوازم آرایشی</h1>
-      <p>منتخب رژ، ضدآفتاب و مراقبت پوست. هر روز اضافه می‌کنیم ✨</p>
-      <a class="btn primary" href="#shop">مشاهده محصولات</a>
+      <div><img src="https://placehold.co/800x520?text=Beauty+Banner" alt="بنر"></div>
     </div>
-    <div><img src="https://placehold.co/800x520" alt="بنر فروشگاه"/></div>
   </section>
 
-  <!-- کنترل‌ها -->
-  <section id="shop" class="section">
-    <div class="controls">
+  <!-- دسته‌ها -->
+  <section class="section" id="cats">
+    <h2>دسته‌بندی‌ها</h2>
+    <div class="catgrid">
+      <div class="card"><span class="ribbon">ویژه</span><img src="https://placehold.co/600x400?text=Lip"><h3>رژ و لب</h3></div>
+      <div class="card"><img src="https://placehold.co/600x400?text=SPF"><h3>ضدآفتاب</h3></div>
+      <div class="card"><img src="https://placehold.co/600x400?text=Serum"><h3>مراقبت پوست</h3></div>
+      <div class="card"><img src="https://placehold.co/600x400?text=Eyes"><h3>چشم و ابرو</h3></div>
+    </div>
+  </section>
+
+  <!-- محصولات -->
+  <section class="section">
+    <h2 id="products">محصولات</h2>
+    <div class="products" id="list"></div>
+    <p style="font-size:12px;color:#777">* سبد خرید به واتساپ ارسال می‌شود؛ پرداخت درب منزل/لینک پرداخت.</p>
+  </section>
+
+  <!-- بنر میانی -->
+  <section class="banner">
+    <div>
+      <h3>ارسال رایگان برای خریدهای بالای ۱,۰۰۰,۰۰۰ تومان</h3>
+      <p>کد تخفیف: <strong style="color:var(--brand)">BEAUTY10</strong></p>
+    </div>
+    <img src="https://placehold.co/700x350?text=Offer" alt="Offer">
+  </section>
+
+  <!-- تماس -->
+  <section class="section" id="contact">
+    <h2>ارتباط با ما</h2>
+    <p>آدرس: <span id="addr">تهران، …</span></p>
+    <p>تلفن: <a id="tel" href="tel:02100000000">021-00000000</a> • واتساپ: <a id="wa" href="https://wa.me/989000000000" target="_blank">پیام بده</a></p>
+    <p>اینستاگرام: <a id="ig" href="https://instagram.com/yourpage" target="_blank">@yourpage</a></p>
+  </section>
+</main>
+
+<a class="cartbtn" id="cartLink" href="#">🛒 سبد (0)</a>
+<footer>© <span id="y"></span> فروشگاه شما — همه حقوق محفوظ است.</footer>
+
+<script>
+// — 1) اطلاعات خودت
+const INFO = {
+  brand: "Your Shop",
+  headline: "یاسمین‌استایل؛ زیبایی اصیل با تحویل سریع",
+  sub: "منتخب آرایشی و مراقبت پوست با ضمانت اصالت و پشتیبانی واتساپ.",
+  address: "تهران، خیابان مثال، پلاک 12",
+  phone: "02100000000",
+  whatsapp: "989123456789", // بدون صفر اول
+  instagram: "yourpage"
+};
+
+// — 2) محصولات (فقط این آرایه را ویرایش کن)
+const products = [
+  {id:'lip-001', title:'رژ لب مات قرمز رِژی', price:180000, img:'https://placehold.co/600x600?text=Lip'},
+  {id:'spf-001', title:'کرم ضدآفتاب SPF50', price:250000, img:'https://placehold.co/600x600?text=SPF'},
+  {id:'serum-001', title:'سرم ویتامین C روشن‌کننده', price:320000, img:'https://placehold.co/600x600?text=Serum'},
+  // {id:'mask-002', title:'ماسک آبرسان صورت', price:210000, img:'LINK'}
+];
+
+// — 3) منطق ساده فروش: رندر، جستجو، سبد واتساپی
+const list = document.getElementById('list');
+const cart = JSON.parse(localStorage.getItem('cart')||'[]');
+function rials(n){return n.toLocaleString('fa-IR')+' تومان'}
+function paint(items){
+  list.innerHTML='';
+  items.forEach(p=>{
+    const el=document.createElement('div'); el.className='card';
+    el.innerHTML=`<img src="${p.img}" alt="${p.title}">
+      <h3>${p.title}</h3><div class="price">${rials(p.price)}</div>
+      <button data-id="${p.id}">افزودن به سبد</button>`;
+    list.appendChild(el);
+  });
+  document.querySelectorAll('button[data-id]').forEach(b=>{
+    b.onclick=()=>{ const it=products.find(x=>x.id===b.dataset.id);
+      cart.push({id:it.id,title:it.title,price:it.price});
+      localStorage.setItem('cart',JSON.stringify(cart)); updateCart(); alert('به سبد اضافه شد ✅');
+    };
+  });
+}
+function doSearch(){
+  const q=(document.getElementById('q').value||'').trim();
+  if(!q) return paint(products);
+  const f=products.filter(p=>p.title.includes(q));
+  paint(f.length?f:products);
+}
+function updateCart(){
+  const total=cart.reduce((s,i)=>s+i.price,0);
+  const msg=encodeURIComponent('سفارش:%0A'+cart.map(i=>`- ${i.title} (${rials(i.price)})`).join('%0A')+`%0Aجمع: ${rials(total)}`);
+  document.getElementById('cartLink').href=`https://wa.me/${INFO.whatsapp}?text=${msg}`;
+  document.getElementById('cartLink').textContent=`🛒 سبد (${cart.length})`;
+}
+function fill(){
+  brand.textContent=INFO.brand;
+  headline.textContent=INFO.headline; sub.textContent=INFO.sub;
+  document.getElementById('addr').textContent=INFO.address;
+  tel.href='tel:'+INFO.phone; tel.textContent=INFO.phone;
+  wa.href='https://wa.me/'+INFO.whatsapp;
+  ig.href='https://instagram.com/'+INFO.instagram; ig.textContent='@'+INFO.instagram;
+}
+paint(products); updateCart(); fill(); document.getElementById('y').textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
