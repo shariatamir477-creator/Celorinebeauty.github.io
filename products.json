@@ -1,0 +1,26 @@
+[
+  {
+    "id": "lip-001",
+    "title": "رژ لب مات قرمز رِژی",
+    "price": 180000,
+    "img": "https://placehold.co/600x600?text=Lip",
+    "desc": "پیگمنت بالا، ماندگاری طولانی، فینیش مخملی.",
+    "cat": "لب"
+  },
+  {
+    "id": "spf-001",
+    "title": "کرم ضدآفتاب SPF50",
+    "price": 250000,
+    "img": "https://placehold.co/600x600?text=SPF",
+    "desc": "محافظت Broad Spectrum، بافت سبک و بدون سفیدی.",
+    "cat": "ضدآفتاب"
+  },
+  {
+    "id": "serum-001",
+    "title": "سرم ویتامین C روشن‌کننده",
+    "price": 320000,
+    "img": "https://placehold.co/600x600?text=Serum",
+    "desc": "روشن‌کننده‌ی لک‌های سطحی و افزایش درخشندگی پوست.",
+    "cat": "مراقبت پوست"
+  }
+]
