@@ -1,9 +1,16 @@
-[
+خ[
   {
     "id": "lip-001",
-    "title": "رژ لب مات قرمز رِژی CELORINE",
+    "title": "ضدآفتاب سنتلا CELORINE",
     "price": 180000,
-    "img": "https://placehold.co/600x600?text=Lipstick",
+    "img": "{
+  "id": "spf-centella",
+  "title": "ضد آفتاب سنتلا SKIN1004",
+  "price": 950000,
+  "img": "https://raw.githubusercontent.com/USERNAME/celorinebeauty.github.io/main/IMG_3920.jpeg",
+  "desc": "ضدآفتاب سبک و آبرسان سنتلا ماداگاسکار با SPF50+ PA++++. بدون سفیدک، مناسب پوست‌های حساس.",
+  "cat": "ضدآفتاب"
+}",
     "desc": "پیگمنت بالا، ماندگاری طولانی و فینیش مخملی.",
     "cat": "لب"
   },
