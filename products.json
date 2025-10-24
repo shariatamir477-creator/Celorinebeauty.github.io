@@ -1,26 +1,98 @@
 [
   {
     "id": "lip-001",
-    "title": "رژ لب مات قرمز رِژی",
+    "title": "رژ لب مات قرمز رِژی CELORINE",
     "price": 180000,
-    "img": "https://placehold.co/600x600?text=Lip",
-    "desc": "پیگمنت بالا، ماندگاری طولانی، فینیش مخملی.",
+    "img": "https://placehold.co/600x600?text=Lipstick",
+    "desc": "پیگمنت بالا، ماندگاری طولانی و فینیش مخملی.",
+    "cat": "لب"
+  },
+  {
+    "id": "lip-002",
+    "title": "بالم لب مغذی شی باتر",
+    "price": 145000,
+    "img": "https://placehold.co/600x600?text=Lip+Balm",
+    "desc": "ترمیم خشکی و ترک لب با رایحه ملایم وانیل.",
     "cat": "لب"
   },
   {
     "id": "spf-001",
-    "title": "کرم ضدآفتاب SPF50",
+    "title": "کرم ضدآفتاب SPF50 بدون سفیدک",
     "price": 250000,
-    "img": "https://placehold.co/600x600?text=SPF",
-    "desc": "محافظت Broad Spectrum، بافت سبک و بدون سفیدی.",
+    "img": "https://placehold.co/600x600?text=SPF+50",
+    "desc": "Broad Spectrum UVA/UVB با جذب سریع.",
+    "cat": "ضدآفتاب"
+  },
+  {
+    "id": "spf-002",
+    "title": "ژل ضدآفتاب سبک SPF+50",
+    "price": 270000,
+    "img": "https://placehold.co/600x600?text=Gel+SPF",
+    "desc": "بافت ژلی مناسب پوست مختلط و چرب.",
     "cat": "ضدآفتاب"
   },
   {
     "id": "serum-001",
-    "title": "سرم ویتامین C روشن‌کننده",
+    "title": "سرم ویتامین C روشن‌کننده 15%",
     "price": 320000,
-    "img": "https://placehold.co/600x600?text=Serum",
-    "desc": "روشن‌کننده‌ی لک‌های سطحی و افزایش درخشندگی پوست.",
+    "img": "https://placehold.co/600x600?text=Vitamin+C",
+    "desc": "افزایش درخشندگی و کاهش لک‌های سطحی.",
     "cat": "مراقبت پوست"
+  },
+  {
+    "id": "serum-002",
+    "title": "سرم هیالورونیک اسید آبرسان",
+    "price": 295000,
+    "img": "https://placehold.co/600x600?text=Hyaluronic",
+    "desc": "آبرسانی عمیق و کاهش خطوط ریز.",
+    "cat": "مراقبت پوست"
+  },
+  {
+    "id": "eye-001",
+    "title": "ریمل حجم‌دهنده مشکی",
+    "price": 210000,
+    "img": "https://placehold.co/600x600?text=Mascara",
+    "desc": "حجم و حالت‌دهی بدون گلوله شدن.",
+    "cat": "چشم و ابرو"
+  },
+  {
+    "id": "brow-001",
+    "title": "مداد ابرو طبیعی",
+    "price": 130000,
+    "img": "https://placehold.co/600x600?text=Brow+Pencil",
+    "desc": "رنگ طبیعی با ماندگاری روزانه.",
+    "cat": "چشم و ابرو"
+  },
+  {
+    "id": "perf-001",
+    "title": "ادکلن زنانه فلورال 50ml",
+    "price": 720000,
+    "img": "https://placehold.co/600x600?text=Perfume",
+    "desc": "ملایم و شیرین با نت‌های یاس و وانیل.",
+    "cat": "عطر"
+  },
+  {
+    "id": "hair-001",
+    "title": "ماسک موی کراتینه",
+    "price": 260000,
+    "img": "https://placehold.co/600x600?text=Hair+Mask",
+    "desc": "نرم‌کننده و ترمیم‌کننده موهای آسیب‌دیده.",
+    "cat": "مو"
+  },
+  {
+    "id": "set-001",
+    "title": "ست مراقبت روزانه (شوینده+تونر+سرم)",
+    "price": 780000,
+    "img": "https://placehold.co/600x600?text=Skin+Set",
+    "desc": "روتین کامل روزانه برای درخشندگی و آبرسانی.",
+    "cat": "ست‌ها"
+  },
+  {
+    "id": "tool-001",
+    "title": "براش آرایشی فلت",
+    "price": 110000,
+    "img": "https://placehold.co/600x600?text=Brush",
+    "desc": "پخش یکنواخت کرم‌پودر و کانسیلر.",
+    "cat": "اکسسوری"
   }
 ]
