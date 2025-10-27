@@ -1,13 +1,16 @@
 <!doctype html>
 <html lang="fa" dir="rtl">
 <head>
-<meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>سلورین بیوتی  | بروز ترین کالاهای اورجینال مراقبت پوشتی</title>
-<meta name="description" content="خرید آنلاین لوازم آرایشی با ارسال سریع و ضمانت اصالت.">
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>سلورین بیوتی | به‌روزترین کالاهای اورجینال مراقبت پوستی</title>
+<meta name="description" content="خرید آنلاین لوازم آرایشی و مراقبت پوست با ارسال سریع و ضمانت اصالت.">
 <style>
 :root{--brand:#b3003c;--gold:#c9a227;--max:1100px;--pad:16px;--r:14px}
-*{box-sizing:border-box}html,body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto;line-height:1.7;color:#111;background:#fff}
-a{text-decoration:none;color:inherit}img{max-width:100%;height:auto;border-radius:12px}
+*{box-sizing:border-box}
+html,body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto;line-height:1.7;color:#111;background:#fff}
+a{text-decoration:none;color:inherit}
+img{max-width:100%;height:auto;border-radius:12px}
 .wrap{max-width:var(--max);margin:auto;padding:0 var(--pad)}
 header{position:sticky;top:0;background:#fff;border-bottom:1px solid #eee;z-index:30}
 nav{display:flex;align-items:center;justify-content:space-between;height:64px;gap:12px}
@@ -31,8 +34,9 @@ nav{display:flex;align-items:center;justify-content:space-between;height:64px;ga
 .products{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
 .price{color:var(--brand);font-weight:700}
 button{width:100%;padding:10px;background:#111;color:#fff;border:0;border-radius:10px;margin-top:8px}
-.banner{border:1px solid #eee;border-radius:16px;overflow:hidden;display:grid;grid-template-columns:1fr 1fr}
-.banner div{padding:20px}.banner h3{margin:0 0 8px}
+.banner{border:1px solid #eee;border-radius:16px;overflow:hidden;display:grid;grid-template-columns:1fr 1fr;margin-top:40px}
+.banner div{padding:20px}
+.banner h3{margin:0 0 8px}
 footer{padding:28px 0;border-top:1px solid #eee;color:#666;text-align:center;margin-top:28px}
 .cartbtn{position:fixed;left:16px;bottom:16px;background:var(--brand);color:#fff;border-radius:999px;padding:12px 14px;box-shadow:0 8px 24px rgba(179,0,60,.25);z-index:40}
 .search{display:flex;gap:8px;margin-top:10px}
@@ -44,7 +48,7 @@ footer{padding:28px 0;border-top:1px solid #eee;color:#666;text-align:center;mar
 <header>
   <div class="wrap">
     <nav>
-      <a class="brand" href="#"><img src="logo.png" onerror="this.src='https://placehold.co/72x72?text=LOGO'"><strong id="brand">Your Shop</strong></a>
+      <a class="brand" href="#"><img src="https://raw.githubusercontent.com/shariatamir477-creator/Celorinebeauty.github.io/main/IMG_3920.jpeg" alt="لوگو"><strong id="brand">سلورین بیوتی</strong></a>
       <div class="top">
         <span class="chip">اصالت کالا</span><span class="chip">ارسال سریع</span><span class="chip">پرداخت امن</span>
         <a class="btn primary" href="#products">محصولات</a>
@@ -54,7 +58,8 @@ footer{padding:28px 0;border-top:1px solid #eee;color:#666;text-align:center;mar
 </header>
 
 <main class="wrap">
-  <!-- هرو -->
+
+  <!-- بخش هرو -->
   <section class="hero">
     <div class="grid">
       <div>
@@ -66,11 +71,14 @@ footer{padding:28px 0;border-top:1px solid #eee;color:#666;text-align:center;mar
           <a class="btn" href="#products" onclick="doSearch()">جستجو</a>
         </div>
       </div>
-      <div><img src="https://placehold.co/800x520?text=Beauty+Banner" alt="بنر"></div>
+      <div>
+        <img src="https://raw.githubusercontent.com/shariatamir477-creator/Celorinebeauty.github.io/main/IMG_3920.jpeg" 
+             alt="بنر سلورین بیوتی" style="width:100%;border-radius:12px;object-fit:cover;aspect-ratio:16/9">
+      </div>
     </div>
   </section>
 
-  <!-- دسته‌ها -->
+  <!-- دسته‌بندی‌ها -->
   <section class="section" id="cats">
     <h2>دسته‌بندی‌ها</h2>
     <div class="catgrid">
@@ -85,53 +93,56 @@ footer{padding:28px 0;border-top:1px solid #eee;color:#666;text-align:center;mar
   <section class="section">
     <h2 id="products">محصولات</h2>
     <div class="products" id="list"></div>
-    <p style="font-size:12px;color:#777">* سبد خرید به واتساپ ارسال می‌شود؛ پرداخت درب منزل/لینک پرداخت.</p>
+    <p style="font-size:12px;color:#777">* سبد خرید به واتساپ ارسال می‌شود؛ پرداخت درب منزل یا لینک پرداخت.</p>
   </section>
 
-  <!-- بنر میانی -->
+  <!-- بنر تخفیف -->
   <section class="banner">
     <div>
       <h3>ارسال رایگان برای خریدهای بالای ۱,۰۰۰,۰۰۰ تومان</h3>
       <p>کد تخفیف: <strong style="color:var(--brand)">BEAUTY10</strong></p>
     </div>
-    <img src="https://placehold.co/700x350?text=Offer" alt="Offer">
+    <img src="https://raw.githubusercontent.com/shariatamir477-creator/Celorinebeauty.github.io/main/IMG_3920.jpeg" 
+         alt="Offer" style="object-fit:cover;">
   </section>
 
   <!-- تماس -->
   <section class="section" id="contact">
     <h2>ارتباط با ما</h2>
-    <p>آدرس: <span id="addr">بندرعباس-داماهی مرجان۹، …</span></p>
-    <p>تلفن: <a id="tel" href="tel:09054480650">021-00000000</a> • واتساپ: <a id="wa" href="https://wa.me/" target="_blank">پیام بده</a></p>
-    <p>اینستاگرام: <a id="ig" href="https://instagram.com/celorine.beauty" target="_blank">@yourpage</a></p>
+    <p>آدرس: <span id="addr">بندرعباس، داماهی، ۱۲</span></p>
+    <p>تلفن: <a id="tel" href="tel:09054480650">09054480650</a> • واتساپ: <a id="wa" href="https://wa.me/989054480650" target="_blank">پیام بده</a></p>
+    <p>اینستاگرام: <a id="ig" href="https://instagram.com/celorine.beauty" target="_blank">@celorine.beauty</a></p>
   </section>
 </main>
 
 <a class="cartbtn" id="cartLink" href="#">🛒 سبد (0)</a>
-<footer>© <span id="y"></span>  سلورین بیوتی — همه حقوق محفوظ است.</footer>
+<footer>© <span id="y"></span> سلورین بیوتی — همه حقوق محفوظ است.</footer>
 
 <script>
-// — 1) اطلاعات خودت
+// اطلاعات برند
 const INFO = {
-  brand: " سلورین بیوتی",
+  brand: "سلورین بیوتی",
   headline: "سلورین بیوتی؛ زیبایی اصیل با تحویل سریع",
   sub: "منتخب آرایشی و مراقبت پوست با ضمانت اصالت و پشتیبانی واتساپ.",
-  address: "بندرعباس، داماهی ،  12",
+  address: "بندرعباس، داماهی، ۱۲",
   phone: "09054480650",
-  whatsapp: "989054480650", // بدون صفر اول
+  whatsapp: "989054480650",
   instagram: "celorine.beauty"
 };
 
-// — 2) محصولات (فقط این آرایه را ویرایش کن)
+// محصولات
 const products = [
+  { id:'spf-centella', title:'ضد آفتاب سنتلا SKIN1004', price:950000,
+    img:'https://raw.githubusercontent.com/shariatamir477-creator/Celorinebeauty.github.io/main/IMG_3920.jpeg' },
+
   {id:'lip-001', title:'رژ لب مات قرمز رِژی', price:180000, img:'https://placehold.co/600x600?text=Lip'},
   {id:'spf-001', title:'کرم ضدآفتاب SPF50', price:250000, img:'https://placehold.co/600x600?text=SPF'},
-  {id:'serum-001', title:'سرم ویتامین C روشن‌کننده', price:320000, img:'https://placehold.co/600x600?text=Serum'},
-  // {id:'mask-002', title:'ماسک آبرسان صورت', price:210000, img:'LINK'}
+  {id:'serum-001', title:'سرم ویتامین C روشن‌کننده', price:320000, img:'https://placehold.co/600x600?text=Serum'}
 ];
 
-// — 3) منطق ساده فروش: رندر، جستجو، سبد واتساپی
-const list = document.getElementById('list');
-const cart = JSON.parse(localStorage.getItem('cart')||'[]');
+// منطق فروش و سبد خرید
+const list=document.getElementById('list');
+const cart=JSON.parse(localStorage.getItem('cart')||'[]');
 function rials(n){return n.toLocaleString('fa-IR')+' تومان'}
 function paint(items){
   list.innerHTML='';
@@ -143,15 +154,15 @@ function paint(items){
     list.appendChild(el);
   });
   document.querySelectorAll('button[data-id]').forEach(b=>{
-    b.onclick=()=>{ const it=products.find(x=>x.id===b.dataset.id);
+    b.onclick=()=>{const it=products.find(x=>x.id===b.dataset.id);
       cart.push({id:it.id,title:it.title,price:it.price});
-      localStorage.setItem('cart',JSON.stringify(cart)); updateCart(); alert('به سبد اضافه شد ✅');
+      localStorage.setItem('cart',JSON.stringify(cart));updateCart();alert('به سبد اضافه شد ✅');
     };
   });
 }
 function doSearch(){
   const q=(document.getElementById('q').value||'').trim();
-  if(!q) return paint(products);
+  if(!q)return paint(products);
   const f=products.filter(p=>p.title.includes(q));
   paint(f.length?f:products);
 }
@@ -169,7 +180,4 @@ function fill(){
   wa.href='https://wa.me/'+INFO.whatsapp;
   ig.href='https://instagram.com/'+INFO.instagram; ig.textContent='@'+INFO.instagram;
 }
-paint(products); updateCart(); fill(); document.getElementById('y').textContent=new Date().getFullYear();
-</script>
-</body>
-</html>
+paint(products);updateCart();fill();document.getElementById('y').textContent=new Date().getFullYear();
